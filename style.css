@@ -1,16 +1,5 @@
 /*
-	Theme Name: SmartStudy.edu
-	Theme URI: 
-	Author: 
-	Author 
-	Description: SmartStudy.edu is an WordPress Theme specially designed for Bands and music websites. This Theme is easy to modify and ready to be up and running out of the box. Theme is fully Responsive Design, Easy to changeable Color skins with custom graphics. Rockit2.0 is Compatible with all new browsers. Well defined Documentation Included with in the package. Quality source Code nicely formatted and commented to make editing this Theme as easy as possible. This Theme comes in some premade color variations: yellow, blue, and gray, white but it will only take one minute to create your desired color schemes. 
-	Version: 1.0
-	License: GNU General Public License
-	License URI: license.txt
-	Tags: black, blue, gray, pink, purple, white, yellow, dark, light, two-columns, left-sidebar, fixed-layout, responsive-layout, accessibility-ready, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready
-*/
-/*
-01. Theme Typo
+01. Typography
 
 02. Header
   02.1 TopBar
@@ -4874,7 +4863,7 @@ footer#footer .copyright-text p a:hover {
 
 /*Footer Widgets Style Start*/
 .cs-footer-widgets {
-  padding: 95px 0 49px;
+  padding: 95px 0 0px;
 }
 
 .cs-footer-widgets .widget {
