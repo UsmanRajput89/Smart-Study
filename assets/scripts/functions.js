@@ -5,15 +5,16 @@
     jQuery(document).ready(function(jQuery) {
         jQuery('[data-toggle="tooltip"]').tooltip();
         /** Responsive Menu*/
-        if (jQuery(".main-navigation>ul, ul.top-nav.nav-left").length != '') {
-            jQuery('.main-navigation>ul').slicknav({
-                prependTo: '.cs-main-nav'
-            });
-            jQuery('ul.top-nav.nav-left').slicknav({
-                prependTo: '.top-bar > .container > .row > .col-lg-4',
-                label: ' '
-            });
-        }
+        // if (jQuery(".main-navigation>ul, ul.top-nav.nav-left").length != '') {
+        //     jQuery('.main-navigation>ul').slicknav({
+        //         prependTo: '.cs-main-nav'
+        //     });
+        //     jQuery('ul.top-nav.nav-left').slicknav({
+        //         prependTo: '.top-bar > .container > .row > .col-lg-4',
+        //         label: ' '
+        //     });
+        // }
+        
         /*If Condition Start*/
         if (jQuery("#mobile-menu").length != '') {
             /* Sidebar Menu*/

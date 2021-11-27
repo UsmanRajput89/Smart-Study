@@ -73,6 +73,7 @@ ul.cs-blog-grid-slider li .cs-blog.masonry .cs-text .cs-post-comments{top:7px; r
 /* 980px to 768px */
 /* If Required */
 @media screen and (max-width: 980px) {
+	
 #header .cs-logo {padding: 20px 0;}
 .cs-partners ul li figure{text-align: center;}
 .cs-partners ul li img{width: auto;}
@@ -136,7 +137,7 @@ ul.cs-blog-grid-slider li .cs-blog.masonry .cs-text .cs-post-comments{right: 7px
 .top-bar .slicknav_menu .slicknav_btn{float:left;border:solid 1px #fff !important;width:43px;top:-3px;z-index:20;}
 .top-bar .slicknav_menu .slicknav_icon-bar{border:solid 1px #fff !important;}
 .top-bar .slicknav_menu .slicknav_menutxt{color:#FFF !important}
-.top-bar .cs-user{margin-top:-22px;}
+/* .top-bar .cs-user{margin-top:-22px;} */
 .slicknav_nav li,.slicknav_nav li a{border-bottom:0;}
 .slicknav_nav li:last-child a{border-bottom:1px solid rgba(225, 225, 225, 0.5);}
 .cs-search-area .search-area form{right:-20px;}
@@ -307,4 +308,15 @@ ul.cs-history-slider li .cs-text{bottom: -136px;}
 .wp-smartstudy .cs-list-view li{margin-left:4px;}
 ul.cs-history-slider li .cs-text{bottom: -166px;}
 .wp-smartstudy .cs-sorting-list .cs-caption-select label{padding-right:0;width:75%;}
+}
+
+@media screen and (max-width: 511px) {
+	.cs-user, .top-bar-email>li{
+		width: 100%;
+		text-align: center;
+	}
+
+}
+@media screen and (min-width: 980px){
+	.cs-menu-slide{display: none;}
 }
