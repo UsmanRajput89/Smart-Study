@@ -5296,3 +5296,48 @@ footer#footer .cs-social-media ul li a i {
     font-size: 15px;
     height: 40px;
 }
+
+
+
+@media(max-width:991.98px) {
+
+    .login-wrapper .loginbox .login-left {
+        padding: 80px 50px;
+        width: 50%
+    }
+
+    .login-wrapper .loginbox .login-right {
+        padding: 50px;
+        width: 50%
+    }
+}
+
+
+@media(max-width:767.98px) {
+
+    .login-body{
+        min-width: 100%;
+        padding: 0% 4%;
+    }
+    .login-wrapper{
+        width: 100%;
+        height: 100%;
+        display: table-cell;
+        vertical-align: middle;
+    }
+    .login-wrapper .loginbox .login-left {
+        display: none
+
+    }
+
+    .login-wrapper .loginbox {
+        max-width: 100%;
+        min-height: unset
+    }
+
+    .login-wrapper .loginbox .login-right {
+        float: none;
+        padding: 1.875rem;
+        width: 100%
+    }
+}
