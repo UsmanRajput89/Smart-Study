@@ -5116,10 +5116,10 @@ footer#footer .cs-social-media ul li a i {
 /* Footer Style End */
 
 @media screen and (max-width: 980px) {
-  .cs-search-area {
-    display: inline-block;
-    right: 0 !important;
-  }
+    .cs-search-area {
+        display: inline-block;
+        right: 0 !important;
+    }
  
 }
 .top-bar-email>li{
@@ -5138,8 +5138,16 @@ footer#footer .cs-social-media ul li a i {
   display: inline-block;
 }
 
-
-
+.login-btn{
+    color: #fff;
+    padding: 8px;
+    margin-top: 20px;
+    background-color:#3488bf ;
+}
+.login-btn:hover{
+    background-color:#4dadee ;
+    color: #fff;
+}
 .login-body {
     display: table;
     height: 100vh;
@@ -5195,18 +5203,20 @@ footer#footer .cs-social-media ul li a i {
     font-size: 26px;
     font-weight: 700;
     margin-bottom: 5px;
-    text-align: center
+    text-align: center;
 }
 
 .account-subtitle {
     color: #4c4c4c;
     font-size: 17px;
     margin-bottom: 1.875rem;
-    text-align: center
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: normal;
 }
 
 .login-wrapper .loginbox .login-right .forgotpass a {
-    color: #a0a0a0
+    color: #a0a0a0;
 }
 
 .login-wrapper .loginbox .login-right .forgotpass a:hover {
@@ -5227,39 +5237,7 @@ footer#footer .cs-social-media ul li a i {
     text-decoration: underline
 }
 
-.social-login {
-    text-align: center
-}
 
-.social-login>span {
-    color: #a0a0a0;
-    margin-right: 8px
-}
-
-.social-login>a {
-    background-color: #ccc;
-    border-radius: 4px;
-    color: #fff;
-    display: inline-block;
-    font-size: 18px;
-    height: 32px;
-    line-height: 32px;
-    margin-right: 6px;
-    text-align: center;
-    width: 32px
-}
-
-.social-login>a:last-child {
-    margin-right: 0
-}
-
-.social-login>a.facebook {
-    background-color: #4b75bd
-}
-
-.social-login>a.google {
-    background-color: #fe5240
-}
 
 .login-or {
     color: #a0a0a0;
